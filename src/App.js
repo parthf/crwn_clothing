@@ -8,6 +8,7 @@ import Category from './Routes/category/category.component';
 import CategoriesPreview from './Routes/Categories-preview/categories-preview.component';
 
 const App = () => {
+  
   return (
     <Routes>
       <Route path='/' element={<Navigation />}>
