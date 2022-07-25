@@ -1,52 +1,44 @@
 {
   "name": "crwn-clothing",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "balanced-match": "^1.0.2",
-    "array-uniq": "^1.0.3",
-    "brace-expansion": "^1.1.11",
-    "commondir": "^1.0.1",
-    "concat-map": "^0.0.1",
-    "escape-string-regexp": "^1.0.5",
-    "email-addresses": "^3.1.0",
-    "filename-reserved-regex": "^2.0.0",
-    "filenamify": "^4.3.0",
-    "find-cache-dir": "^3.3.2",
-    "glob": "^7.2.3",
-    "fs.realpath": "^1.0.0",
-    "graceful-fs": "^4.2.10",
-    "inflight": "^1.0.6",
-    "make-dir": "^3.1.0",
-    "inherits": "^2.0.4",
-    "lodash": "^4.17.21",
-    "minimatch": "^3.1.2",
-    "object-assign": "^4.1.1",
-    "once": "^1.4.0",
-    "path-exists": "^4.0.0",
-    "p-try": "^2.2.0",
-    "path-is-absolute": "^1.0.1",
-    "pify": "^2.3.0",
-    "pinkie": "^2.0.4",
-    "strip-outer": "^1.0.1",
-    "pinkie-promise": "^2.0.1",
-    "pkg-dir": "^4.2.0",
-    "wrappy": "^1.0.2",
-    "trim-repeated": "^1.0.0"
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "firebase": "^9.9.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "sass": "1.49.7",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/parthf/Crwn-clothing.git"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/parthf/Crwn-clothing/issues"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
-  "homepage": "https://github.com/parthf/Crwn-clothing#readme"
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
